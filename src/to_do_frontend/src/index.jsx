@@ -19,7 +19,7 @@ function Index() {
 
                 const agent = new HttpAgent({ identity });
 
-                const actorToDoBackend = createActor(process.env.CANISTER_ID_LOGIN_BACKEND, {
+                const actorToDoBackend = createActor(process.env.CANISTER_ID_TO_DO_BACKEND, {
                     agent,
                 });
 
