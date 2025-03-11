@@ -27,7 +27,7 @@ function Index() {
                 setIsLoggedIn(true);
                 document.getElementById("principalText").innerText = principalText;
 
-                // Após o login bem-sucedido, redireciona para a página /tarefas
+
                 navigate("/tarefas");
             },
             windowOpenerFeatures: `
